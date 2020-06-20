@@ -1,9 +1,9 @@
 // Customize theme colors:
 $theme-colors: (
-  "primary": #4d4c7d,
-  "secondary": #827397,
+  "primary": #827397,
+  "secondary": #4d4c7d,
   "success": #649d66,
-  "info": #97e5ef,
+  "info": #01a9b4,
   "warning": #ffd31d,
   "danger": #e43f5a,
   "dark": #231f40,
@@ -13,3 +13,12 @@ $theme-colors: (
 @import "../bootstrap/scss/bootstrap";
 
 // Custom Styles:
+body {
+  background-color: #333;
+  color: white;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
