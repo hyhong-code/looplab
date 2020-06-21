@@ -48,11 +48,20 @@ body {
   .card-form {
     opacity: 0.8;
   }
+}
 
-  .fas {
-    color: #827397;
-    background: #fff;
-    padding: 5px;
-    border-radius: 5px;
-  }
+#home-section .fas,
+#create-section .fas {
+  color: #827397;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
 }
